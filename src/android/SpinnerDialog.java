@@ -1,5 +1,5 @@
 // cordova-plugin-native-spinner
-package com.greybax.spinnerdialog;
+package com.sistepar.cordova.spinnerdialog;
 
 import java.util.Objects;
 import java.util.Stack;
