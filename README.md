@@ -61,5 +61,5 @@ SpinnerDialog.hide();
 
 ## License
 See "LICENSE".
-Based on https://github.com/greybax/cordova-plugin-native-spinner with lots of awesome improvements! :star: :tada: :rocket: :star:
+Fork from https://github.com/greybax/cordova-plugin-native-spinner 
 
