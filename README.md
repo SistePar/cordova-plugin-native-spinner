@@ -1,7 +1,5 @@
 # cordova-plugin-native-spinner
 
-> Fork from: https://github.com/greybax/cordova-plugin-native-spinner
-
 > Cordova plugin for showing a native spinner based on Paldom/SpinnerDialog
 
 ## Installation
@@ -23,9 +21,7 @@
 - __cancelCallback__: Callback to invoke when spinner cancel event fired (tap or Android hardware back button event). If set, spinner dialog will be fixed, you should explicitly call `SpinnerDialog.hide`. Due to legacy reasons you can provide boolean value (true/false) to set spinner not cancelable. Optional, defaults to `false`. _(Function/Boolean)_
 
 #### SpinnerDialog.hide
-    SpinnerDialog.hide([wpStatusbar]);
-
-- __wpStatusbar__: Indicates whether to keep the status bar visible. (Windows 10 Mobile only). If set to `true`, only the spinner will be hidden, the status bar will remain visible if it was already visible. Optional, defaults to `false`. _(Boolean)_
+    SpinnerDialog.hide();
 
 ## Usage
 
@@ -65,5 +61,5 @@ SpinnerDialog.hide();
 
 ## License
 See "LICENSE".
-Based on https://github.com/Paldom/SpinnerDialog with lots of awesome improvements! :star: :tada: :rocket: :star:
+Based on https://github.com/greybax/cordova-plugin-native-spinner with lots of awesome improvements! :star: :tada: :rocket: :star:
 
