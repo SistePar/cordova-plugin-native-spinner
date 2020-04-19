@@ -13,8 +13,8 @@
 
 **Current state from git**:
 
-* PhoneGap - `phonegap local plugin add https://github.com/greybax/cordova-plugin-native-spinner`
-* Cordova - `cordova plugin add https://github.com/greybax/cordova-plugin-native-spinner`
+* PhoneGap - `phonegap local plugin add https://github.com/SistePar/cordova-plugin-native-spinner`
+* Cordova - `cordova plugin add https://github.com/SistePar/cordova-plugin-native-spinner`
 
 ## Methods
 - `SpinnerDialog.show`
