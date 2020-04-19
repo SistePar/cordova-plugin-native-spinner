@@ -23,12 +23,12 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="SpinnerDialog">
-        <param name="android-package" value="com.greybax.spinnerdialog.SpinnerDialog"/>
+        <param name="android-package" value="com.sistepar.cordova.spinnerdialog.SpinnerDialog"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/SpinnerDialog.java" target-dir="src/com/greybax/spinnerdialog" />
-    <source-file src="src/android/CallbackProgressDialog.java" target-dir="src/com/greybax/spinnerdialog" />
+    <source-file src="src/android/SpinnerDialog.java" target-dir="src/com/sistepar/cordova/spinnerdialog" />
+    <source-file src="src/android/CallbackProgressDialog.java" target-dir="src/com/sistepar/cordova/spinnerdialog" />
   </platform>
 
   <!-- ios -->
@@ -41,17 +41,6 @@
 
     <header-file src="src/ios/CDVSpinnerDialog.h" />
     <source-file src="src/ios/CDVSpinnerDialog.m" />
-  </platform>
-
-  <!-- wp8 -->
-  <platform name="wp8">
-    <config-file target="config.xml" parent="/*">
-      <feature name="SpinnerDialog">
-      <param name="wp-package" value="SpinnerDialog"/>
-      </feature>
-    </config-file>
-
-    <source-file src="src/wp/SpinnerDialog.cs" />
   </platform>
   
   <!-- windows -->
