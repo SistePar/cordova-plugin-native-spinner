@@ -89,11 +89,9 @@ public class SpinnerDialog extends CordovaPlugin {
 			this.cordova.getActivity().runOnUiThread(runnable);
 
 		} else if (action.equals("hide")) {
-			Runnable runnable = new Runnable() {
-				public void run() {
-					if (!SpinnerDialog.this.spinnerDialogStack.empty()) {
-						SpinnerDialog.this.spinnerDialogStack.pop().dismiss();
-					}
+			Runnable runnable = () -> {
+				if (!SpinnerDialog.this.spinnerDialogStack.empty()) {
+					SpinnerDialog.this.spinnerDialogStack.pop().dismiss();
 				}
 			};
 			this.cordova.getActivity().runOnUiThread(runnable);
