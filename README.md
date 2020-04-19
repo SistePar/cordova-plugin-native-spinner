@@ -1,15 +1,8 @@
 # cordova-plugin-native-spinner
 
-[![NPM version][npm-image]][npm-url]
-[![npm](https://img.shields.io/npm/dm/cordova-plugin-native-spinner.svg)](https://www.npmjs.com/package/cordova-plugin-native-spinner)
-
-[![Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=14980891)
+> Fork from: https://github.com/greybax/cordova-plugin-native-spinner
 
 > Cordova plugin for showing a native spinner based on Paldom/SpinnerDialog
-
-NPM Package: [cordova-plugin-native-spinner](https://www.npmjs.com/package/cordova-plugin-native-spinner)
-
-:fire: **This Plugin** is officially using in [ionic-native](https://ionicframework.com/docs/native/spinner-dialog/) :fire:
 
 ## Platforms
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/511px-Android_robot.svg.png" width="48px" height="48px" alt="Android logo"> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/2000px-Apple_logo_black.svg.png" width="48px" height="48px" alt="iOS logo"> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/2000px-Windows_logo_-_2012.svg.png" width="48px" height="48px" alt="Windows logo"> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/2000px-Windows_logo_-_2012.svg.png" width="48px" height="48px" alt="Windows logo">
@@ -18,25 +11,10 @@ NPM Package: [cordova-plugin-native-spinner](https://www.npmjs.com/package/cordo
 
 ## Installation
 
-**Latest stable release**: 
-
-* PhoneGap - `phonegap local plugin add cordova-plugin-spinner-dialog`
-* Cordova - `cordova plugin add cordova-plugin-spinner-dialog`
-
 **Current state from git**:
 
 * PhoneGap - `phonegap local plugin add https://github.com/greybax/cordova-plugin-native-spinner`
 * Cordova - `cordova plugin add https://github.com/greybax/cordova-plugin-native-spinner`
-```
-cordova plugin add cordova-plugin-native-spinner
-cordova prepare
-```
-
-## Includes PR's improvements from Paldom/SpinnerDialog:
-
-* [InAppBrowser Compatibility](https://github.com/Paldom/SpinnerDialog/pull/34)
-* [Change loading text if we call show function and loading dialog exists](https://github.com/Paldom/SpinnerDialog/pull/23)
-* and **tons fixes** from here https://github.com/Paldom/SpinnerDialog/issues ...
 
 ## Methods
 - `SpinnerDialog.show`
@@ -98,5 +76,3 @@ SpinnerDialog.hide();
 See "LICENSE".
 Based on https://github.com/Paldom/SpinnerDialog with lots of awesome improvements! :star: :tada: :rocket: :star:
 
-[npm-url]: https://npmjs.org/package/cordova-plugin-native-spinner
-[npm-image]: https://img.shields.io/npm/v/cordova-plugin-native-spinner.svg
