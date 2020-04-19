@@ -10,9 +10,9 @@ import android.view.MotionEvent;
 
 public class CallbackProgressDialog extends ProgressDialog {
 
-  public static CallbackContext callbackContext;
+  private static CallbackContext callbackContext;
 
-  public CallbackProgressDialog(Context context) {
+  private CallbackProgressDialog(Context context) {
     super(context);
   }
 
